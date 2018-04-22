@@ -17,6 +17,7 @@ public class ConsumerController {
 	
 	@GetMapping("/customer/{id}")
 	public User getUserById(@PathVariable String id){
+		System.out.println("customer + id");
 		return restTemplate.getForObject("http://localhost:8762/user/getUserById/12", User.class);
 	}
 }
