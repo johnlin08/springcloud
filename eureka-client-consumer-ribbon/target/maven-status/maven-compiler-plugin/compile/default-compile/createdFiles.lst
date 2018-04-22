@@ -1,0 +1,4 @@
+com\master\eureka_client_consumer\controller\ConsumerController.class
+com\master\eureka_client_consumer\entity\User.class
+com\master\eureka_client_consumer\App.class
+com\master\eureka_client_consumer\EurekaApplication.class
